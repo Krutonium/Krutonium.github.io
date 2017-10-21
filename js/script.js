@@ -13,7 +13,7 @@ var dayNames = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THRUSDAY", "FRIDAY"
 /*== Options ==*/
 /*============*/
 
-var CookiePrefix = "taco_stpg_"; //prefix for cookies.
+var CookiePrefix = "kru_stpg_"; //prefix for cookies.
 var cmdPrefix = "!"; //prefix for commands.
 var ssi = 1; //set default search provider. Use array index of the array below. (Starting with 0)
 // Format: [Keyword, Search URL (Search query replaces "{Q}"), "Input placeholder text"]
@@ -46,43 +46,33 @@ var svgTrash   = "<svg style=\"width:24px;height:24px\" xmlns=\"http://www.w3.or
 */
 // Also yes I could totally use a json object to represent the menus, but I didn't feel like reprogramming the whole script. Probably doing that next site, though.
 var linkMenu = [
-  [svgTrash,                   "blue",                                        "-HEAD-"], // Anime
-  ["AnimeNewsNetwork",         "",""],
-  ["MyAnimeList",              "",""],
-  ["Nyaa Tracker",             "",""],
-  ["BakaBT",                   "",""],
-  
   [svgSocial,                  "green",                                       "-HEAD-"], // Media
-  ["YouTube",                  "",""],
-  ["Facebook",                 "",""],
-  ["Reddit",                   "",""],
-  ["Twitch",                   "",""],
-  ["DeviantArt",               "",""],
-  
-  [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
-  ["/a/ Anime & Manga",        "",""],
-  ["/g/ Technology",           "",""],
-  ["/w/ Anime/Wallpapers",     "",""],
-  ["/wg/ Wallpaper/General",   "",""],
+  ["YouTube",                  "https://youtube.com",""],
+  ["Reddit",                   "https://reddit.com",""],
+  ["Twitch",                   "https://twitch.tv",""],
+  ["Twitter",                  "https://twitter.com",""],
   
   [svgCode,                    "red",                                         "-HEAD-"], // FuelRats
-  ["GitHub",                   "",""],
-  ["Gist",                     "",""],
-  ["JSFiddle",                 "",""],
-  ["Stack Overflow",           "",""],
+  ["GitHub",                   "https://github.com/PFCKrutonium",""],
+  ["Gist",                     "https://gist.github.com",""],
+  ["Stack Overflow",           "https://stackoverflow.com",""],
+  ["OpenRCT2",                 "https://GitHub.com/OpenRCT2/OpenRCT2/",""],
   
   [svgGamepad,                 "magenta",                                     "-HEAD-"], // Gaming
-  ["Steam",                    "",""],
-  ["Humble Bundle",            "",""],
-  ["GOG.com",                  "",""],
-  ["/r/gaming",                "",""],
+  ["Steam",                    "https://steampowered.com",""],
+  ["Humble Bundle",            "https://www.humblebundle.com",""],
+  ["GOG.com",                  "https://gog.com",""],
+  ["/r/gaming",                "https://reddit.com/r/gaming",""],
+  ["/r/rct",                   "https://reddit.com/r/rct",""],
+  ["OpenRCT2",                 "https://OpenRCT2.org",""],
   
   [svgMore,                    "yellow",                                      "-HEAD-"], // Other
-  ["Gmail",                    "",""],
-  ["Amazon",                   "",""],
-  ["Dropbox",                  "",""],
-  ["Netflix",                  "",""],
-  ["Weather",                  "",""],
+  ["Gmail",                    "https://gmail.com",""],
+  ["Amazon",                   "https://amazon.ca",""],
+  ["Dropbox",                  "https://dropbox.com",""],
+  ["Netflix",                  "https://netflix.com",""],
+  ["Plex",                     "https://plex.tv",""],
+  ["Weather",                  "https://weather.gc.ca/radar/index_e.html?id=wkr",""],
 ];
 // DID I FORGET TO MENTION?! THE DEMO LINKS DO NOTHING!
 
