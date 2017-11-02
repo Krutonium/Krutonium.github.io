@@ -57,6 +57,7 @@ var linkMenu = [
   ["Gist",                     "https://gist.github.com",""],
   ["Stack Overflow",           "https://stackoverflow.com",""],
   ["OpenRCT2",                 "https://GitHub.com/OpenRCT2/OpenRCT2/",""],
+  ["Gitter",                   "https://gitter.im/",""],
   
   [svgGamepad,                 "magenta",                                     "-HEAD-"], // Gaming
   ["Steam",                    "https://steampowered.com",""],
