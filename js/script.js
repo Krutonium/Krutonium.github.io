@@ -53,7 +53,7 @@ var linkMenu = [
   ["Twitter",                  "https://twitter.com",""],
   
   [svgCode,                    "red",                                         "-HEAD-"], // FuelRats
-  ["GitHub",                   "https://github.com/PFCKrutonium",""],
+  ["GitHub",                   "https://github.com/Krutonium",""],
   ["Gist",                     "https://gist.github.com",""],
   ["Stack Overflow",           "https://stackoverflow.com",""],
   ["OpenRCT2",                 "https://GitHub.com/OpenRCT2/OpenRCT2/",""],
